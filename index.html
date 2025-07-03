@@ -79,18 +79,18 @@
   <section class="py-16 px-6 bg-white">
     <div class="max-w-3xl mx-auto">
       <h2 class="text-2xl font-bold mb-6 text-center">Submit Your Info to Get Started</h2>
-      <form class="space-y-6">
-        <input type="text" placeholder="Full Name" class="w-full p-4 border border-gray-300 rounded">
-        <input type="tel" placeholder="WhatsApp Number" class="w-full p-4 border border-gray-300 rounded">
-        <input type="email" placeholder="Email Address" class="w-full p-4 border border-gray-300 rounded">
-        <select class="w-full p-4 border border-gray-300 rounded">
-          <option>Select Business Category</option>
-          <option>General Trading</option>
-          <option>Real Estate Development</option>
-          <option>Property Management</option>
-          <option>Investment Activities</option>
-          <option>Financial Services</option>
-          <option>Other</option>
+      <form id="leadForm" class="space-y-6">
+        <input type="text" name="fullName" placeholder="Full Name" class="w-full p-4 border border-gray-300 rounded" required>
+        <input type="tel" name="whatsApp" placeholder="WhatsApp Number" class="w-full p-4 border border-gray-300 rounded" required>
+        <input type="email" name="email" placeholder="Email Address" class="w-full p-4 border border-gray-300 rounded" required>
+        <select name="category" class="w-full p-4 border border-gray-300 rounded" required>
+          <option value="">Select Business Category</option>
+          <option value="General Trading">General Trading</option>
+          <option value="Real Estate Development">Real Estate Development</option>
+          <option value="Property Management">Property Management</option>
+          <option value="Investment Activities">Investment Activities</option>
+          <option value="Financial Services">Financial Services</option>
+          <option value="Other">Other</option>
         </select>
         <button type="submit" class="w-full bg-yellow-400 text-blue-900 font-bold py-4 rounded hover:bg-yellow-300">📩
           Submit Request</button>
