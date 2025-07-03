@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     try {
-      const response = await fetch('http://www.readydubailicense.com/sendleadformemail.php', {
+      const response = await fetch('https://readydubailicense.com/sendleadformemail.php', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/x-www-form-urlencoded',
